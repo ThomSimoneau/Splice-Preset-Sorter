@@ -3,6 +3,7 @@ A Powershell script that sorts presets based on a customizable Keywordmap into s
 
 You can customize your keywords by changing the keyword map located in the script as such:
 
+```
  $keywordMap = @{
         'ARP'   = 'ARP'
         'KEY'   = 'KEY'
@@ -16,7 +17,7 @@ You can customize your keywords by changing the keyword map located in the scrip
         'FX'    = 'FX'
         'PLUCK' = 'PLUCK'
     }
-
+```
 
 The first column is the keyword used to sort the presets and the second column is the name of the folder in which your presets will end.
 
